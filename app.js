@@ -428,8 +428,8 @@ connections.on('connection', async socket => {
 let listenip;
 let announceip;
 if (process.platform === "linux") {
-  listenip = "172.31.40.255";
-  announceip = "3.39.21.142";
+  listenip = "0.0.0.0";
+  announceip = "44.201.248.97";
 } else {
   listenip = "127.0.0.1";
   announceip = null;
